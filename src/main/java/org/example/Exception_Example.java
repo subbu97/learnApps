@@ -6,7 +6,7 @@ public class Exception_Example {
             int result = divideNumbers(5, 0);
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error in the exception: " + e.getMessage());
         }
     }
     public static int divideNumbers(int dividend, int divisor) {
